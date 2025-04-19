@@ -1,17 +1,18 @@
 # k8s-kind-operator-express-prometeus
 
-Port | Description
-22 | ssh
-80 | http
-443 | https
-8000 | backend‑api
-8080 | argo‑cd‑host‑port‑ix
-9090 | prometheus‑inner‑port
-3000 | grafana
-30080 | grafana
-30090 | prometheus
-31810 | argo‑cd‑node‑port‑auto
-6443 | k8s‑api
+| Port | Description |
+|------|-------------|
+| 22   | ssh |
+| 80   | http |
+| 443  | https |
+| 8000 | backend‑api |
+| 8080 | argo‑cd‑host‑port‑ix |
+| 9090 | prometheus‑inner‑port |
+| 3000 | grafana |
+| 30080 | grafana |
+| 30090 | prometheus |
+| 31810 | argo‑cd‑node‑port‑auto |
+| 6443 | k8s‑api |
 
 下に **「Step 8 以降」** を追記するかたちで、  
 *同じ ~/dev/k8s‑kind‑operator‑express ディレクトリ内* に Helm‑based 監視スタックを組み込む手順を追加しました。  
